@@ -1,27 +1,17 @@
 # Laravel PHP Framework
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Registration with laravel5
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
-
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
-
-## Official Documentation
-
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+1) Download the project </br></br>
+2) I used Xampp so the gmailtest file in Xampp/htdocs/ </br></br>
+3) Create Database in Mysql with name laravel or if u want to change the name so create ur database name then change it in
+   /gmailtest/.env </br></br>
+4) you will find my database file in DB take this file and import it in your Mysql </br></br> 
+5) Run cmd </br></br>
+6) Project location ex: work/web/Xampp/htdocs/gmailtest </br></br>
+7) Add this command to cmd to run server ( php artisan serve ) </br></br>
+8) Then add this in url (localhost:8000/home) </br></br>
+9) So you can register with gmail or create account </br></br>
+10) In registration with gmail if this error appear (equestException in CurlFactory.php line 187:cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)) </br></br>
+11) Then you have to download cacert.pm file and put it in Xampp\php\ext then add this line( curl.cainfo = ".....\Xampp\php\ext\cacert.pem" ) in Xampp/php/php.ini </br></br>
+12) Login with gmail or ur account </br></br> 
